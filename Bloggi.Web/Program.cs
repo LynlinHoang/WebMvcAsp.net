@@ -14,7 +14,7 @@ builder.Services.AddDbContext<BloggieDbContext>(options =>
 
 builder.WebHost.ConfigureKestrel(options =>
 {
-    options.ListenAnyIP(80); // This ensures the app listens on port 80
+    options.ListenAnyIP(80); 
 });
 
 
